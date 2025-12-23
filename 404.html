@@ -1,0 +1,9 @@
+<!-- /404.html (helps SPA-style routing; optional) -->
+<!doctype html>
+<meta charset="utf-8">
+<title>404</title>
+<script>
+  // why: redirect unknown routes back to root for SPAs
+  const path = location.pathname.replace(/\/404\.html$/, "");
+  location.replace(path + "/");
+</script>
