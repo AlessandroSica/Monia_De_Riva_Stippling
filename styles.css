@@ -1,4 +1,9 @@
 /* /styles.css */
+
+```txt
+# /CNAME (optional – ONLY if you use a custom domain)
+www.example.com
+
 :root { --maxw: 860px; --gap: 1rem; }
 * { box-sizing: border-box; }
 html, body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.5; }
